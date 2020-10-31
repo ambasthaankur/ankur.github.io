@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Demo Templates Using BootStrap</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Work+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="E:\ankur\bootstrap-1/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+		<!-------- Start Header Section----->
+	
+		<nav class="navbar navbar-expand-md	 bg-dark navbar-dark fixed-top ">
+			<div class="container">
+				<h3 class="navbar-brand text-White">Basic 86 </h3>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					 <span class="navbar-toggler-icon"></span>
+				 </button>
+					  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">			
+						 <ul class="navbar-nav">
+   							 <li class="nav-item">
+   		 			 			 <a class="nav-link text-white" href="index.html">Home</a>
+   							 </li>
+  		 					 <li class="nav-item dropdown ">
+   				 	  			<a class="nav-link dropdown-toggle text-white" href="about.html" data-toggle="dropdown">About</a>
+   				 	  				<div class="dropdown-menu text-dark bg-secondary">
+   				 	  					<a href="about.html" class="dropdown-item">About of Company</a>
+   				 	  					<a href="about2.html" class="dropdown-item">Slef About</a>
+   				 	  				</div>
+  		  					</li>
+ 		  					 <li class="nav-item">
+   		  						 <a class="nav-link text-white" href="contact.html">Contact</a>
+  		 					 </li>
+ 				 		</ul> 	
+ 					</div>
+ 				
+     				
+		</nav>			
+<!-------- End Header Section----->
+
+<!-------- Start Content-1 Section----->
+
+	<div class="container">
+		<div class="row mt-5 pt-5">
+			<div class="col-md-4 bg-secondary shadow bg-white">
+				<h1>About Our Story</h1>
+					<p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.
+						<br><br>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. 
+						</p>
+						<button type="button" class="btn btn-primary ml-2 mb-2" data-toggle="modal" data-target="#myModal">Sing Up</button>	
+ 				<!------------Start 1st Pop-Up Box --------------->
+ 					 <div class="modal fade" id="myModal">
+   						 <div class="modal-dialog">
+     						 <div class="modal-content">
+     						 	<div class="modal-header ">
+         							 <h4 class="modal-title ">Sign Up</h4>
+       								   <button type="button" class="close" data-dismiss="modal">&times;</button>
+       							</div>	  
+       							<div class="modal-body">  
+       						 		<form action="/action_page.php">
+       						 			<div class="row">
+   										 	<div class="form-group col-md-4">
+     											 <label for="name"	class="ml-2">First Name:</label>
+      												<input type="text" class="form-control" id="name" placeholder=" First Name" name="name">
+  											 </div>
+  										 	<div class="form-group col-md-4">
+     										 	<label for="name"	class="ml-2">Middle Name:</label>
+      												<input type="text" class="form-control" id="name" placeholder=" Middle Name" name="name">
+  										 	</div>
+  										 	<div class="form-group col-md-4">
+     										 	<label for="name"	class="ml-2">Last Name:</label>
+      												<input type="text" class="form-control" id="name" placeholder=" last Name" name="name">
+  										 	</div>
+  										 </div>
+  										  <div class="form-group">
+   											  <label for="email"	class="ml-2"> Enter Your Email:</label>
+   												  <input type="password" class="form-control" id="pwd" placeholder="Enter Your Email" name="email">
+  										  </div>
+  										  <div class="form-group">
+   											  <label for="pwd"	class="ml-2">Password:</label>
+   												  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  										  </div>
+  										   <div class="form-group">
+   											  <label for="pwd"	class="ml-2"> ConfirmPassword:</label>
+   												  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  										  </div>
+   										 <div class="form-group form-check">
+											     <label class="form-check-label">
+      											 	 <input class="form-check-input" type="checkbox" name="remember">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>
+    									 		 </label>
+   										 </div>
+    										<button type="submit" class="btn btn-danger">Submit</button>
+ 									 </form>   
+       					 		</div>  
+       					 			<div class="container col-md-4 mx-auto pl-3 mb-3">
+       					 					<p class="pl-3">Or Sign Up</p>
+       					 					<a href="#"><i class="fa fa-google p-1"></i></a> 
+       					 					<a href="#"><i class="fa fa-facebook "></i></a>  
+       					 					<a href="#"><i class="fa fa-linkedin p-1"></i></a> 
+       					 					<a href="#"><i class="fa fa-github"></i></a> 
+       					 			</div>     					 		   					 		
+     						 </div>
+     					</div>
+     				</div>
+     				<!--------------End 1st Pop-Up Box----------->
+     				<button type="button" class="btn btn-primary ml-2  mb-2" data-toggle="modal" data-target="#myModal2">Log In</button>	
+ 				<!------------Start 2nd Pop-Up Box --------------->
+ 					 <div class="modal fade" id="myModal2">
+   						 <div class="modal-dialog">
+     						 <div class="modal-content">
+     						 	<div class="modal-header">
+         							 <h4 class="modal-title">LogIn</h4>
+       								   <button type="button" class="close" data-dismiss="modal">&times;</button>
+       							</div>	  
+       							<div class="modal-body">  
+       						 		<form action="/action_page.php">
+   										 <div class="form-group">
+     										 <label for="email"  class="ml-2">Username:</label>
+      											<input type="email" class="form-control" id="email" placeholder="Enter Your Name" name="email">
+  										 </div>
+  										  <div class="form-group">
+   											  <label for="pwd" class="ml-2">Password:</label>
+   												  <input type="password" class="form-control" id="pwd" placeholder="Enter Your Password" name="pswd">
+   												  <a href="#" class="ml-2">Foget Password:</a>
+  										  </div>
+   										 <div class="form-group form-check">
+											     <label class="form-check-label">
+      											 	 <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    									 		 </label>
+   										 </div>
+    										<button type="submit" class="btn btn-danger">Submit</button>
+ 									 </form>   
+       					 		</div>
+
+       					 			<div class="container col-md-4 mx-auto pl-3 mb-3">
+       					 					<p class="pl-3">Or Sign Up</p>
+       					 					<a href="#"><i class="fa fa-google p-1"></i></a> 
+       					 					<a href="#"><i class="fa fa-facebook "></i></a>  
+       					 					<a href="#"><i class="fa fa-linkedin p-1"></i></a> 
+       					 					<a href="#"><i class="fa fa-github"></i></a> 
+
+       					 			</div>     					 		
+     						 </div>
+     					</div>
+     				</div>
+
+     				<!--------------End 2nd Pop-Up Box----------->	
+			</div>		
+    			<div class="col-md-8 p-1 shadow border border-top-0">
+    				<div class="carousel slide" data-ride="carousel">
+    					<div class="carousel-inner">
+  						 	 <div class="carousel-item active">
+    							 <img src="E:\ankur\bootstrap-1/image/pic.jpg" width="760" height="320"> 
+ 						 	  </div>
+  					 		 <div class="carousel-item">
+    						 	 <img src="E:\ankur\bootstrap-1/image/pic-2.jpg" width="760" height="320">
+  					 		 </div>
+  					 		 <div class="carousel-item">
+    							  <img src="E:\ankur\bootstrap-1/image/pic-3.jpg" width="760" height="320">
+  					 		 </div>
+ 						 </div>
+    				</div>
+    				
+    			</div>
+		</div>
+	</div>
+	<!-------- End Content-1 Section----->
+
+
+		<!-------- Start Content-2 Section----->
+
+		<div class="container">
+			<div class="row mt-5">
+					<div class="col-md-4 shadow bg-white border border-top-0">
+						<h3>LORUM IPSUM DOLOR</h3>
+							<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section2 float-left pr-2 ">
+								<span>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.
+								</span><br>
+								<a class="float-right text-dark" href="#">Learn More>></a>
+					</div>
+				<div class="col-md-4 shadow bg-white border border-top-0">
+					<h3>LORUM IPSUM DOLOR</h3>
+						<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section2 float-left pr-2">
+							<span>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.
+							</span><br>
+							<a class="float-right text-dark" href="#">Learn More>></a>
+				</div>
+				<div class="col-md-4 shadow bg-white border border-top-0">
+						<h3>LORUM IPSUM DOLOR</h3>
+							<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section2 float-left pr-2">
+								<span>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</span><br>
+								<a class="float-right text-dark" href="#">Learn More>></a>
+				</div>   
+			</div>
+		</div>
+			<!-------- End Content-2 Section----->
+
+			<!-------- Start Content-3 Section----->
+
+			<div class="container">
+					<div class="row mt-5">
+						<div class="col-md-3 shadow bg-white  border border-top-0 pt-1">
+							<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section3 img_fluid" >
+								<h5>INDONECTETUS FACILIS</h5>
+								<p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+						</div>
+						<div class="col-md-3 shadow bg-white border border-top-0 pt-1">
+							<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section3 img_fluid" >
+								<h5>INDONECTETUS FACILIS</h5>
+								<p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+
+						</div>
+						<div class="col-md-3 shadow bg-white border border-top-0 pt-1">
+							<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section3 img_fluid" >
+								<h5>INDONECTETUS FACILIS</h5>
+								<p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+
+						</div>   
+						<div class="col-md-3 shadow bg-white border border-top-0 pt-1">
+							<img src="E:\ankur\bootstrap-1/image/pic.jpg" class="img_section3 img_fluid" >
+								<h5 >INDONECTETUS FACILIS</h5>
+								<p >Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+						</div>   
+					</div>
+			</div>
+			<!-------- End Content-3 Section----->
+
+			
+			<!-------- Start Footer Section----->
+			<div class="container-fluid bg-dark shadow ">
+				<div class="row mt-3" >
+					<div class="col-md-6 mt-2">
+						<h2 class="ml-3">About</h2>
+						<p class="text-white">Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+					</div>
+					<div class="col-md-3 mt-2 ">
+						<h2 class="ml-2">Links</h2>
+							<ul class="nav flex-column">
+    							<li class="nav-item">
+   								   <a class="nav-link text-white" href="index.html">Home</a>
+  								  </li>
+ 							   <li class="nav-item">
+    								  <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="about.html" >About</a>
+    								  <div class="dropdown-menu bg-secondary">
+    									 <a href="about.html" class="dropdown-item ">About of Company</a>
+   				 	  					<a href="about2.html" class="dropdown-item ">Slef About</a>
+     								   </div>
+  								  </li>
+ 							   <li class="nav-item">
+   								   <a class="nav-link text-white" href="contact.html">Contact</a>
+   								 </li>   								
+ 							 </ul>
+					</div>
+					<div class="col-md-3 mt-2 ">
+						<h2 class="ml-2">Services</h2>
+						<ul class="nav flex-column">
+    							<li class="nav-item">
+   								   <a class="nav-link text-white" href="#">Web designning</a>
+  								  </li>
+ 							   <li class="nav-item">
+    								  <a class="nav-link text-white" href="#">Digital Marketing</a>
+  								  </li>
+ 							   <li class="nav-item">
+   								   <a class="nav-link text-white" href="#">UI Design</a>
+   								 </li>   
+   														
+ 							 </ul>
+					</div>						
+				</div>
+				<hr>
+				<div class="container-fluid pb-1">
+					<p class="text-white  d-flex justify-content-center">Copyright © 2009 - 2020 - All Rights Reserved - ANKUR RAJ </p>
+				</div>				
+			</div>
+				
+		<!-------- End Footer Section----->
+</body>
+</html>
